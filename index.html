@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="dist/output.css" type="text/css" media="all" />
+</head>
+<body>
+  <nav class="navbar w-full flex justify-between md:justify-around items-center gap-1 py-4 px-2 flex-wrap sticky top-0 left-0 right-0 bg-[rgb(255,255,255,0.4)] backdrop-blur-md">
+    <img src="src/Image/Logo.jpg" alt="Logo" class="Picture w-[55px] h-[55px] rounded bg-black">
+    <div class="toggle h-[20px] flex md:hidden flex-col justify-between">
+      <span class="block w-[28px] h-[3px] bg-black rounded"></span>
+      <span class="block w-[28px] h-[3px] bg-black rounded"></span>
+      <span class="block w-[28px] h-[3px] bg-black rounded"></span>
+    </div>
+    <ul class="nav-link w-full md:w-[50%] hidden md:flex flex-col md:flex-row justify-around items-center gap-3">
+      <li><a href="#home" class="capitalize hover:text-teal-500">home</a></li>
+      <li><a href="#about" class="capitalize hover:text-teal-500">tentang saya</a></li>
+      <li><a href="#Portofolio" class="capitalize hover:text-teal-500">Portofolio</a></li>
+      <li><a href="#clients" class="capitalize hover:text-teal-500">Clients</a></li>
+      <li><a href="#contact" class="capitalize hover:text-teal-500">contact</a></li>
+    </ul>
+  </nav>
+  
+  <div class="home w-full h-screen bg-white flex flex-row flex-wrap justify-center items-center gap-4" id="home">
+    <div class="grid1 max-w-[550px] flex flex-col justify-center items-start px-6 py-2">
+      <p class="text-base font-semibold text-teal-500">Hello semuanya,saya</p>
+      <p class="text-4xl font-semibold text-dark mt-1">Muchammad Fachri Syakur</p>
+      <p class="text-dark font-medium text-lg mb-3">Front end web developer & Student at SMK Negeri 2 Kota Pekalongan</p>
+      <p class="font-medium text-slate-500 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur rem tempora fugit, voluptatibus adipisci optio!</p>
+      <a href="" class="text-base font-semibold text-white bg-teal-500 py-3 px-8 rounded-full hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya</a>
+    </div>
+    <img src="src/Image/1.jpg" alt="Hero_Section" class="w-full max-w-[300px] h-[300px]">
+  </div>
+  
+  <div class="about mt-10 w-full flex flex-row flex-wrap justify-center items-center gap-6 pt-36 pb-32 px-6 bg-slate-100" id="about">
+    <div class="grid1 max-w-[500px]">
+      <p class="text-teal-500 text-lg mb-3 font-bold uppercase">Tentang Saya</p>
+      <p class="font-bold text-dark text-3xl mb-5">Berkarya dengan membuat website yang indah dan fungsional.</p>
+      <p class="font-medium text-base text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores id optio voluptatibus reprehenderit neque porro.</p>
+    </div>
+    <div class="grid2 max-w-[400px]">
+      <p class="font-semibold text-dark text-2xl mb-4">Mari Berteman</p>
+      <p class="font-medium text-base text-slate-500 mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, fuga quae enim. Quo, fugiat, minima.</p>
+      <section class="medsos w-full flex flex-wrap justify-center items-center gap-3">
+        <a href="" class="w-9 h-9 rounded-full border border-slate-300 flex justify-center items-center hover:-translate-y-4 transition duration-800 ease-in-out hover:border-teal-500">-</a>
+        <a href="" class="w-9 h-9 rounded-full border border-slate-300 flex justify-center items-center hover:-translate-y-4 transition duration-800 ease-in-out hover:border-teal-500">-</a>
+        <a href="" class="w-9 h-9 rounded-full border border-slate-300 flex justify-center items-center hover:-translate-y-4 transition duration-800 ease-in-out hover:border-teal-500">-</a>
+      </section>
+    </div>
+  </div>
+  
+  <div class="Portofolio pt-36 pb-32 px-6 flex flex-col justify-center items-center gap-3" id="Portofolio">
+    <div class="grid1 mb-5 flex flex-col justify-center items-center text-center max-w-[500px]">
+      <p class="font-semibold text-lg text-teal-500 mb-2">Portofolio</p>
+      <p class="font-bold text-dark text-3xl mb-4">Project Terbaru</p>
+      <p class="font-medium text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, odio, aliquam. A praesentium, perferendis quam!</p>
+    </div>
+    <div class="grid2 max-w-[1000px] flex flex-wrap justify-center items-center
+    gap-12">
+      <div class="card max-w-[350px] flex flex-col justify-center items-start">
+        <img src="src/Image/1707736719317.jpg" alt="Picture" class="w-full h-[150px] rounded-[5px] bg-black">
+        <p class="name font-semibold text-xl text-dark mt-5 mb-3">Tribute Page Hero Freecodecamp.</p>
+        <p class="description font-medium text-base text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, nemo similique ipsum illum aliquid magnam ullam totam saepe repellendus tempora.</p>
+        <section class="button mt-4 w-full flex justify-start items-center gap-3">
+          <a href="" class="text-base font-medium text-white bg-teal-500 py-3 px-5 rounded-full hover:opacity-80 transition duration-300 ease-in-out">View</a>
+          <a href="" class="text-base font-semibold text-white bg-teal-500 py-3 px-8 rounded-full hover:opacity-80 transition duration-300 ease-in-out">Repo</a>
+        </section>
+      </div>
+      <div class="card max-w-[350px] flex flex-col justify-center items-start">
+        <img src="src/Image/1707736719327.jpg" alt="Picture" class="w-full h-[150px] rounded-[5px] bg-black">
+        <p class="name font-semibold text-xl text-dark mt-5 mb-3">Tribute Page Hero Freecodecamp.</p>
+        <p class="description font-medium text-base text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, nemo similique ipsum illum aliquid magnam ullam totam saepe repellendus tempora.</p>
+        <section class="button mt-4 w-full flex justify-start items-center gap-3">
+          <a href="" class="text-base font-medium text-white bg-teal-500 py-3 px-5 rounded-full hover:opacity-80 transition duration-300 ease-in-out">View</a>
+          <a href="" class="text-base font-semibold text-white bg-teal-500 py-3 px-8 rounded-full hover:opacity-80 transition duration-300 ease-in-out">Repo</a>
+        </section>
+      </div>
+      <div class="card max-w-[350px] flex flex-col justify-center items-start">
+        <img src="src/Image/1707736719337.jpg" alt="Picture" class="w-full h-[150px] rounded-[5px] bg-black">
+        <p class="name font-semibold text-xl text-dark mt-5 mb-3">Tribute Page Hero Freecodecamp.</p>
+        <p class="description font-medium text-base text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, nemo similique ipsum illum aliquid magnam ullam totam saepe repellendus tempora.</p>
+        <section class="button mt-4 w-full flex justify-start items-center gap-3">
+          <a href="" class="text-base font-medium text-white bg-teal-500 py-3 px-5 rounded-full hover:opacity-80 transition duration-300 ease-in-out">View</a>
+          <a href="" class="text-base font-semibold text-white bg-teal-500 py-3 px-8 rounded-full hover:opacity-80 transition duration-300 ease-in-out">Repo</a>
+        </section>
+      </div>
+      <div class="card max-w-[350px] flex flex-col justify-center items-start">
+        <img src="src/Image/1707736719344.jpg" alt="Picture" class="w-full h-[150px] rounded-[5px] bg-black">
+        <p class="name font-semibold text-xl text-dark mt-5 mb-3">Tribute Page Hero Freecodecamp.</p>
+        <p class="description font-medium text-base text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, nemo similique ipsum illum aliquid magnam ullam totam saepe repellendus tempora.</p>
+        <section class="button mt-4 w-full flex justify-start items-center gap-3">
+          <a href="" class="text-base font-medium text-white bg-teal-500 py-3 px-5 rounded-full hover:opacity-80 transition duration-300 ease-in-out">View</a>
+          <a href="" class="text-base font-semibold text-white bg-teal-500 py-3 px-8 rounded-full hover:opacity-80 transition duration-300 ease-in-out">Repo</a>
+        </section>
+      </div>
+      <div class="card max-w-[350px] flex flex-col justify-center items-start">
+        <img src="src/Image/tribute-page-main-image.jpg" alt="Picture" class="w-full h-[150px] rounded-[5px] bg-black">
+        <p class="name font-semibold text-xl text-dark mt-5 mb-3">Tribute Page Hero Freecodecamp.</p>
+        <p class="description font-medium text-base text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, nemo similique ipsum illum aliquid magnam ullam totam saepe repellendus tempora.</p>
+        <section class="button mt-4 w-full flex justify-start items-center gap-3">
+          <a href="" class="text-base font-medium text-white bg-teal-500 py-3 px-5 rounded-full hover:opacity-80 transition duration-300 ease-in-out">View</a>
+          <a href="" class="text-base font-semibold text-white bg-teal-500 py-3 px-8 rounded-full hover:opacity-80 transition duration-300 ease-in-out">Repo</a>
+        </section>
+      </div>
+    </div>
+  </div>
+  
+  <div class="clients bg-slate-700 w-full h-auto pt-36 pb-32 px-6 flex flex-col justify-center items-center gap-4" id="clients">
+    <div class="grid1 text-center">
+      <p class="font-semibold text-lg text-teal-500 mb-2">Clients</p>
+      <p class="font-bold text-white text-3xl mb-4">Yang Pernah Bekerjasama</p>
+      <p class="font-medium text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, odio, aliquam. A praesentium, perferendis quam!</p>
+    </div>
+    <section class="company w-full flex flex-wrap justify-center items-center gap-3">
+     <img src="src/Image/images (1).png" alt="" class="grayscale opacity-80 transition duration-500 ease-in-out hover:grayscale-0 hover:opacity-100 max-w-[150px] h-[50px]">
+     <img src="src/Image/images - 2024-02-05T202742.036.jpeg" alt="" class="grayscale opacity-80 transition duration-500 ease-in-out hover:grayscale-0 hover:opacity-100 max-w-[150px] h-[50px]">
+     <img src="src/Image/images - 2024-02-05T202825.884.jpeg" alt="" class="grayscale opacity-80 transition duration-500 ease-in-out hover:grayscale-0 hover:opacity-100 max-w-[150px] h-[50px]">
+    </section>
+  </div>
+  
+  <div class="blog pt-36 pb-32 w-full flex flex-col justify-center items-center bg-slate-100 gap-3" id="blog">
+    <div class="grid1 text-center px-6 max-w-[500px]">
+      <p class="font-semibold text-lg text-teal-500 mb-2">Blog</p>
+      <p class="font-bold text-black text-3xl mb-4">Tulisan terkini</p>
+      <p class="font-medium text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero vitae, neque provident delectus optio sed cumque harum repellat, cupiditate mollitia praesentium laborum vel architecto.</p>
+    </div>
+    <div class="grid2 mt-4 max-w-[1000px] flex flex-wrap justify-center items-center gap-3">
+      <div class="card max-w-[350px] flex flex-col justify-start items-center rounded-[10px] shadow-lg bg-white">
+        <img src="src/Image/pexels-sora-shimazaki-5926389 (1).jpg" alt="Picture" class="w-full h-[175px] rounded-t-[10px]">
+        <div class="grid1 rounded-b-[10px] mt-3 w-full flex flex-col justify-center items-start py-5 px-6">
+          <p class="mb-3 w-full font-semibold text-xl text-dark hover:text-teal-500 truncate">Roadmap menjadi seorang Front-end Web Developer.</p>
+          <p class="font-medium text-base text-slate-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quae facilis placeat. Adipisci, quisquam, aspernatur!</p>
+          <a href="https://webeyefachri.blogspot.com/2024/02/roadmap-menjadi-seorang-front-end-web.html?m=1" class="font-medium text-sm text-white bg-teal-500 py-3 px-6 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+        </div>
+      </div>
+      <div class="card max-w-[350px] flex flex-col justify-start items-center rounded-[10px] shadow-lg bg-white">
+        <img src="src/Image/Banner-Apa-itu-Termux-Pengertian-Download-dan-Cara-Menggunakannya.png" alt="Picture" class="w-full h-[175px] rounded-t-[10px]">
+        <div class="grid1 rounded-b-[10px] mt-3 w-full flex flex-col justify-center items-start py-5 px-6">
+          <p class="mb-3 w-full font-semibold text-xl text-dark hover:text-teal-500 truncate">Apa itu termux?Pengertian,Cara Download dan Cara menggunakannya</p>
+          <p class="font-medium text-base text-slate-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quae facilis placeat. Adipisci, quisquam, aspernatur!</p>
+          <a href="" class="font-medium text-sm text-white bg-teal-500 py-3 px-6 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+        </div>
+      </div>
+      <div class="card max-w-[350px] flex flex-col justify-start items-center rounded-[10px] shadow-lg bg-white">
+        <img src="src/Image/Banner-Apa-itu-Termux-Pengertian-Download-dan-Cara-Menggunakannya.png" alt="Picture" class="w-full h-[175px] rounded-t-[10px]">
+        <div class="grid1 rounded-b-[10px] mt-3 w-full flex flex-col justify-center items-start py-5 px-6">
+          <p class="mb-3 w-full font-semibold text-xl text-dark hover:text-teal-500 truncate">Apa itu termux?Pengertian,Cara Download dan Cara menggunakannya</p>
+          <p class="font-medium text-base text-slate-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quae facilis placeat. Adipisci, quisquam, aspernatur!</p>
+          <a href="" class="font-medium text-sm text-white bg-teal-500 py-3 px-6 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="contact pt-36 pb-32 w-full flex flex-col justify-center items-center" id="contact">
+    <div class="grid1 text-center px-6 max-w-[500px]">
+      <p class="font-semibold text-lg text-teal-500 mb-2">Contact</p>
+      <p class="font-bold text-black text-3xl mb-4">Tulisan terkini</p>
+      <p class="font-medium text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, cumque molestias perferendis nostrum provident impedit, accusamus nam ratione laborum temporibus explicabo nesciunt minima sint eaque.</p>
+    </div>
+    <form action="" class="w-full px-6 mt-3 flex flex-col justify-center items-center">
+      <div class="w-full md:w-1/2 pt-4 mb-8">
+        <label for="name" class="text-base text-teal-500 capitalize">name</label>
+        <input type="text" name="name" id="name" class="w-full text-dark bg-slate-100 p-3 hover:outline-none hover:ring hover:ring-1 hover:border-teal-500 rounded-md"/>
+      </div>
+      <div class="w-full md:w-1/2 pt-4 mb-8">
+        <label for="email" class="text-base text-teal-500 capitalize">email</label>
+        <input type="email" name="email" id="email" class="w-full text-dark bg-slate-100 p-3 hover:outline-none hover:ring hover:ring-1 hover:border-teal-500 rounded-md"/>
+      </div>
+      <div class="w-full md:w-1/2 pt-4 mb-8">
+        <label for="message" class="text-base text-teal-500 capitalize">message</label>
+        <textarea name="message" id=message rows="8" cols="40" class="w-full text-dark bg-slate-100 p-3 hover:outline-none hover:ring hover:ring-1 hover:border-teal-500 rounded-md"></textarea>
+      </div>
+      <div class="w-full md:w-1/2 pt-4 mb-8">
+        <button class=" w-full py-3 px-8 bg-teal-500 rounded-full text-white hover:opacity-90 transition duration-300 ease-in-out">Kirim</button>
+      </div>
+    </form>
+  </div>
+  
+  <footer class="footer flex flex-col justify-center items-center gap-10 bg-slate-800">
+    <div class="w-full px-6 py-10 flex flex-col md:flex-row justify-center md:justify-around items-start md:items-stretch gap-10">
+      <div class="grid1 text-slate-300 font-medium">
+      <p class="font-bold text-4xl text-white mb-4">MFS</p>
+      <p class="font-bold text-2xl text-slate-300">Hubungi Kami</p>
+      <a href="mailto: muchammadfachrisyakur@gmail.com" class="hover:text-teal-500">muchammadfachrisyakur@gmail.com</a>
+      <p class="hover:text-teal-500">Jalan ... No...</p>
+    </div>
+      <div class="grid2 text-slate-300">
+      <h3 class="font-semibold text-xl text-white mb-6">Kategori Tulisan</h3>
+      <ul>
+        <li><a href="#" class="block text-base mb-3 hover:text-teal-500">Teknologi</a></li>
+        <li><a href="#" class="block text-base mb-3 hover:text-teal-500">Programming</a></li>
+        <li><a href="#" class="block text-base mb-3 hover:text-teal-500">Gaya Hidup</a></li>
+      </ul>
+    </div>
+      <div class="grid2 text-slate-300">
+      <h3 class="font-semibold text-xl text-white mb-6">Tautan</h3>
+      <ul>
+        <li><a href="#" class="block text-base mb-3 hover:text-teal-500">Beranda</a></li>
+        <li><a href="#about" class="block text-base mb-3 hover:text-teal-500">Tentang Saya</a></li>
+        <li><a href="#Portofolio" class="block text-base mb-3 hover:text-teal-500">Portofolio</a></li>
+        <li><a href="#clients" class="block text-base mb-3 hover:text-teal-500">Client</a></li>
+        <li><a href="#blog" class="block text-base mb-3 hover:text-teal-500">Blog</a></li>
+        <li><a href="#contact" class="block text-base mb-3 hover:text-teal-500">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="w-full px-6 py-10 flex flex-col justify-center items-center gap-4 border-t border-slate-500">
+      <div class="medsod-footer flex flex-wrap justify-center items-center gap-3">
+        <a href="" class="w-9 h-9 rounded-full border border-slate-300 flex justify-center items-center hover:-translate-y-4 transition duration-800 ease-in-out hover:border-teal-500">-</a>
+        <a href="" class="w-9 h-9 rounded-full border border-slate-300 flex justify-center items-center hover:-translate-y-4 transition duration-800 ease-in-out hover:border-teal-500">-</a>
+        <a href="" class="w-9 h-9 rounded-full border border-slate-300 flex justify-center items-center hover:-translate-y-4 transition duration-800 ease-in-out hover:border-teal-500">-</a>
+      </div>
+    </div>
+  </footer>
+<script src="App.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
